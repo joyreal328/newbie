@@ -1,0 +1,31 @@
+<!DOCTYPE.html>
+
+<html> 
+<head> 
+	<title> Quebec Tax Calcu </title>
+    <script> 
+                                         
+       function myTax() 
+        {
+        tax = document.getElementById ("inputPrice").value;
+        totaltax= tax * 1.14975    
+        
+        alert (totaltax);
+    
+        }
+       
+    </script>
+</head>
+<body> 
+	<h1>  Quebec Tax Calculator </h1>
+	<form>
+		Input Price <input type = "text" id="inputPrice" value="" placeholder="Enter Price Tag"> <br> <br>
+		GST 9.975%<br> <br>
+		PST 5% <br> <br>     
+        
+    <button onclick="myTax()"> CALCULATE </button> <br><br>
+       
+    </form> 
+
+</body>
+</html>
