@@ -4,21 +4,23 @@
     <head>
         <body>
 
-        <script type="text/javascript">
-      
+        <script>
+                //defining the reference type
                 function CustomerBooking(customerName, film)
                 {
                     this.customerName = customerName;
                     this.film = film;
                     
                 }
+                
             
+                //creating and using reference type instances    
                     var firstBooking = new CustomerBooking("John Doe", "Beautiful life");
                     var secondBooking = new CustomerBooking("Joy Real", "Life of Pi");
             
-            
-                document.write ("The first person to book is" + " " + firstBooking.customerName + "<br>"); 
-                document.write ("The first person to book is" + " " + secondBooking.customerName );
+                //calling the function
+                document.write ("The 1st person to book is" + " " + firstBooking.customerName + "<br>"); 
+                document.write ("The 2nd person to book is" + " " + secondBooking.customerName );
             
         </script>
             
