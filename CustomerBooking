@@ -1,0 +1,30 @@
+<!DOCTYPE.html>
+
+<html>
+    <head>
+        <body>
+
+        <script type="text/javascript">
+      
+                function CustomerBooking(customerName, film)
+                {
+                    this.customerName = customerName;
+                    this.film = film;
+                    
+                }
+            
+                    var firstBooking = new CustomerBooking("John Doe", "Beautiful life");
+                    var secondBooking = new CustomerBooking("Joy Real", "Life of Pi");
+            
+            
+                document.write ("The first person to book is" + " " + firstBooking.customerName + "<br>"); 
+                document.write ("The first person to book is" + " " + secondBooking.customerName );
+            
+        </script>
+            
+            
+        </body>    
+        
+    </head>
+           
+</html>
